@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.searchbar {
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.myplaylist {
+  position: absolute;
+  top: 860px;
+  left: 100px;
+}
+
+.side {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  float: right;
+  margin-right: 100px;
+  top: 30px;
+}
+
+.track {
+  margin-top: 20px;
+}
+
+.relatedtrack {
+  position: relative;
+  top: 50px;
+}
+
+.classic {
+  position: relative;
+  top: 80px;
+}
+
+canvas {
+  display: block;
+}
